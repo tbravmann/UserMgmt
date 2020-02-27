@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "user-mgmt-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/userMgmt/UserMgmtWebPart.js",
+          "manifest": "./src/webparts/userMgmt/UserMgmtWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "UserMgmtWebPartStrings": "lib/webparts/userMgmt/loc/{locale}.js"
+  }
+}

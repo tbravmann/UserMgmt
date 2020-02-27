@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "user-mgmt-client-side-solution",
+    "id": "0316c1e9-95f6-411e-b083-f0ea246c31af",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/user-mgmt.sppkg"
+  }
+}
